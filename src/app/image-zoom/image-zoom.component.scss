@@ -1,0 +1,15 @@
+:host {
+  z-index: 2;
+  border: 2px solid gray;
+  display: inline-block;
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  overflow: hidden;
+
+  .zoomImage {
+    width: 100%;
+    height: 100%;
+    background-position: 50% 50%;
+  }
+}
